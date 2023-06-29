@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    background-color: rgba(43, 41, 41, 0.686);
+    color: white;
+    grid-template-areas:
+    'a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1'
+    'a1 a1 a1 a1 a1 a1';
+    font-size: 2em;
+    height: 600px;
+}
+.grid div {
+    display: flex;
+    border-radius: 5px;
+}
+.cat1{
+    grid-area: a1;
+    background-size: cover;
+    background-image: url(cat18.png);
+}
+
+div img{
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;
+}
